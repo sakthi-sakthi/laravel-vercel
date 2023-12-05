@@ -29,6 +29,10 @@ class APIController extends Controller
             [
                 'name' => 'Vishwa',
                 'email' => 'vishwa@gmail.com'
+            ],
+            [
+                'name' => 'Peter',
+                'email' => 'peter@gmail.com'
             ]
         ];
         return response()->json([
